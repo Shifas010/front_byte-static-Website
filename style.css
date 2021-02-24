@@ -115,7 +115,7 @@
 }.page
 {
     background-image: url(https://previews.123rf.com/images/taiga/taiga1601/taiga160100031/51501178-blue-matrix-abstract-binary-code-digital-background-big-size.jpg);
-    height: 115vh;
+    height: 65vh;
     background-position-x: center;
 }.continer-pro
 {
@@ -124,7 +124,7 @@
 }.over-lay
 {
     background: linear-gradient(rgba( 0,0,0,0.7),rgba(0,0,0,0.7));
-    height: 115vh;
+    height: 65vh;
     width:100%;
     position: absolute;
     top: 0;
