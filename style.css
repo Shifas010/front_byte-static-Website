@@ -236,6 +236,7 @@
     text-decoration: none;
     text-align: center;
     align-items: center;
+    float:left;
 }.footer a
 { color:black;
  text-decoration: none;
