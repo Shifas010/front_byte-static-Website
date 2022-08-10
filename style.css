@@ -11,13 +11,7 @@
     background-color:whitesmoke;
 
 
-}label.logo
-{
-    color:#ffff;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0;
-    font-weight: bold;
+
 
 }.menu-bar ul
 {
@@ -43,41 +37,33 @@
 
 }.menu-bar.fa
 {
-    margin-left: 8px;
+    margin: left 8px;
 
 }.checkbtn{
-    font-size: 30px;
-    color:black;
+    font-size: 40px;
+    display: none;
     float: left;
     line-height: 40px;
     margin-left: 40px;
     cursor: pointer;
-    display: none;
+
 
 }
 #check
 {
     display: none;
-
-
+   
 }
 @media( max-width:952px){
-    .label.logo{
-        font-size:40px;
-        padding-left:50px;
-    }
+
     .nav ul li a {
         font-size:30px;
 
-    }
+    }.checkbtn{
+    display:block;
 }
-@media( max-width:750px)
-{
-    .checkbtn{
-        display: black;
-
-
-    }
+    
+    
     ul{
         
         position: fixed;
@@ -108,77 +94,175 @@
         color: #fff;
     }
     #check:checked ~ ul{
-        left: 0;
+    left: 0;
     padding-bottom: 10px;
     color: white;
+    }.page{
+        background-position-x: center;
+        height:1500px;
+        background-color: black;
+
+    }.a-side{
+    margin-top:50%;
     }
-}.page
+
+}
+ 
+.page
 {
-    background-image: url(https://previews.123rf.com/images/taiga/taiga1601/taiga160100031/51501178-blue-matrix-abstract-binary-code-digital-background-big-size.jpg);
+   
+  
     background-position-x: center;
     height:750px;
-}.continer-pro
-{
-    max-width: 800px;
-    margin:0 auto;
-}.over-lay
-{
-    background: linear-gradient(rgba( 0,0,0,0.7),rgba(0,0,0,0.7));
-    width:100%;
-    height: 750px;
-    position: absolute;
-    top: 0;
-}.image
-{
-
-    float: left;  
-    align-items: center;
-    margin-top: 45%;
-    padding-top: 2em;
-    width: 100%;  
-}.para
-{
+    background-color: black;
     float: left;
-    color: snow;
-    width: 100%;
-}.para h6{
-    color: rgb(204, 200, 200);
+
+
 }.rounded-circle
 {
     opacity: 1em;
     border: 0.5px solid rgb(197, 195, 195);
     border-radius: 1em;
     width:10em;
-}.maincard
-{
-    align-items: center;
-}.progress
-{
-    float: left;
-}.card
-{
+    margin-top:20%;
+    
+
+
+ }.image{
+        width:100%;
+        height:600px;
+         float:left;
+         margin-top: 5%;
+         
+    }.skil-bar{
+        width:100%;
+        height: 300px;
+        float: left;
+        margin-top: 5%;
+      
+     }.profile-pic{
+        width:100%;
+        height: 300px;
+        padding:5%;
+        float: left;
+     
+     }.discription{
+        width:100%;
+        height: 300px;
+        float: left;
+        color:#ffff;
+        background-color: black;
+        padding: 0px;
+
+     }
+      
+.bar{
+        width:100%;
+        float: left;
+        height:25px;
+        background-color: #fff;
+        border-radius:10px;
+
+    }.skil-bar p{
+       text-align: left;
+       color: #fff;
+    }.html{
+        width:75%;
+        height:25px;
+        background-color:red;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        color: #fff;
+        text-align: center;
+        float: left;
+        text-align: end;
+    
+   
+    }.html-move{
+       width:20%;
+        color: #fff;
+        float: left;
+        background-color:red;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        text-align: center;
+        margin-left: auto;
+        height:25px;
+       
+        
+    }.css-move{
+        width:20%;
+         color: #fff;
+         float: left;
+         background-color:red;
+         border-bottom-right-radius: 10px;
+         border-top-right-radius: 10px;
+         text-align: center;
+         margin-left: auto;
+         height:25px;
+        
+         
+     }.css{
+        width:89%;
+        height:25px;
+        background-color:red;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        color: #fff;
+        text-align: center;
+        float: left;
+        text-align: end;
+    }.javascript{
+        width:75%;
+        height:25px;
+        background-color:red;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        color: #fff;
+        text-align: center;
+        float: left;
+        text-align: end;
+    }.a-side{
+    width:100%;
+    height:600px;
+    background-color: black;
     float:left;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-    -6px -6px 10px -1px rgba(255,255,255,0.7);
-    border: 1px solid rgba(0,0,0,0);
-    transition: transform 0.5s;
+    margin-top:5%;
+    }.sliding-image{
+     height:400px;
+     float: left;
+     width:100%;
+    }.d-block{
 
+        height:400px;
+        float: left;
+        width:100%;
 
-}
-.shifas h2
-{
+    }.cardo{
+        width: 100%;
+        height:400px;
+        background-color:black;
+        float: left;
+ 
+    }.social-over{
+        width: 100%;
+        height:200px;
+        float: left;
+        padding-top:5%;
+         text-align: center;
+         color: #fff;
+    }
+    
 
-    font-family: sans-serif;
-    font-weight: normal;
-    font-size: 19px; 
-    letter-spacing: 2px; 
-    padding: 200px 0 100px; 
-    color: rgb(172, 170, 170); text-align: center;
-    text-decoration: solid;
-}.social
-{
-    display: flex;
-    justify-content: center;
+.footer{
+    width:100%;
+    height:70px;
+    background-color: black;
+    float:left;
+    padding-top:5px;
+
+    text-align: center;
+    
 }.social a
 {
     display: flex;
@@ -186,12 +270,12 @@
     height: 2em;
     width: 3em;
     margin: 0 15px;
-    border-radius: 4em;
+    border-radius: 2em;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-                -6px -6px 10px -1px rgba(255,255,255,0.7);
+                -6px -6px 10px -1px rgba(92, 92, 92, 0.7);
     border: 1px solid rgba(0,0,0,0);
     transition: transform 0.5s;
     
@@ -209,60 +293,94 @@
                 0px 12px 10px -10px rgba(0,0,0,0.5);
    border: 1px solid rgba(0,0,0,0.01);
    transform: translate(2px);
-   text-decoration:none ;            
+   text-decoration:none ;    
+    width:4em;  
+    height:4em;       
 
 }.social a:hover i
 {
     transform:scale(0.90) ;
+  
 
 }.social a:hover .fa-facebook
 {
     color: #3b5998;
+    font-size:35px;
+  
+  
 }.social a:hover .fa-whatsapp
 {
     color: #4fce5d;
+    font-size:35px;
 }.social a:hover .fa-twitter
 {
     color: #00acee;
+    font-size:35px;
 }.social a:hover .fa-instagram
 {
     color: #f14843;
-}.email {
-    margin-top: 15%;
-
-}.footer
-{
-    margin-top:50%;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-}.footer a
-{ color:black;
- text-decoration: none;
- padding-right: 70%;
- text-align: center;
- align-items: center;
-}.bg-gradiant{
-    height: 100%;
+    font-size:35px;
+}.social{
+  
     width: 100%;
-    background-image:linear-gradient(45deg,black,whitesmoke);
-}.form-group{
-    padding:2%;
-     color: gray; 
-     float: left;
-      width: 40%;
-}.form-groupa{
-    padding:2%;
-     color: gray; 
-     float: left;
-      width: 30%;
-    }.form-groupb{
-    padding:2%;
-     color: gray; 
-     float: left;
-      width: 30%;
-    }.form-groupc{
-    padding:1%; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     float: left;
-     width:100%;
+}.social-header{
+    float: left;
+    width: 100%;
+    height: 50px;
+   
+ 
+}.social-header :hover{
+
+    letter-spacing: 2px;
+  
 }
+    @keyframes move {
+        0%{
+          right: 0px;
+        
+          
+      
+      
+        }
+        100%{
+         right: 15px;
+        }
+        
+        
+          
+              }      
+        @keyframes moveB {
+            0%{
+                right: 0px;
+              
+                
+            
+            
+              }
+              100%{
+               right: 15px;
+            
+
+              }
+} .html-move{
+    animation-name: move;
+    animation-duration:3s;
+    animation-timing-function:ease;
+    animation: move 1s;
+    animation-direction:alternate;
+    animation-iteration-count:4;
+
+}.css-move{
+    animation-name: moveB;
+    animation-duration:5s;
+    animation-timing-function:ease;
+    animation: moveB 2s;
+    animation-direction:reverse;
+    animation-iteration-count:1;
+}
+
